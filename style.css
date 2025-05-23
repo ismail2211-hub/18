@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1c1c1c;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #111;
+}
+
+.logo {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  color: orange;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 0 20px 40px;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.card img {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+.yellow {
+  background: #f5c562;
+}
+
+.orange {
+  background: #f17945;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #111;
+  color: #aaa;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.socials img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+footer p {
+  font-size: 0.9em;
+}
